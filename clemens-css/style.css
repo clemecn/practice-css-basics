@@ -15,7 +15,6 @@
   padding-bottom: 1em;
 }
 
-
 .box1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -57,9 +56,9 @@
 .box4 {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
-  padding-right:20%;
-  padding-left:20%;
-  align-items:end;
+  padding-right: 20%;
+  padding-left: 20%;
+  align-items: end;
 }
 
 .vl {
