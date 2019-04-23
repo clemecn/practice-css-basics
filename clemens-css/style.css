@@ -3,14 +3,6 @@
   grid-template-rows: 80px 320px 320px 80px;
 }
 
-.container>div:nth-child(even) {
-  background: #eee;
-}
-
-.container>div:nth-child(odd) {
-  background: #ddd;
-}
-
 .container>div {
   border: 1px black solid;
 }
