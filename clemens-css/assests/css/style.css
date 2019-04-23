@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  grid-template-rows: 80px 320px 320px 80px;
+}
+
+.container>div:nth-child(even) {
+  background: #eee;
+}
+
+.container>div:nth-child(odd) {
+  background: #ddd;
+}
+
+.container>div {
+  border: 1px black solid;
+}
+
+.box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 60%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.box1>div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#box2img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 65%;
+  height: 90%;
+}
+
+#box3pig {
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+  height: 20%;
+}
+
+.box3 {
+  padding-left: 3em;
+}
+
+.box4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+  padding-right:20%;
+  padding-left:20%;
+  align-items:end;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 30%;
+}
